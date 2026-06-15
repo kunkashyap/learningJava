@@ -28,6 +28,7 @@ void main() {
           case 60:
                System.out.println("You are gonna retired.");
                break;
+
           default:
                System.out.println("Enjoy the moment");
 
