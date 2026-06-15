@@ -15,23 +15,27 @@ void main() {
 //     else{
 //          System.out.println("You are not experienced.");
 //     }
-     //Switch Case
-     switch (age){
-          case 18:
-               System.out.println("You are legally an adult.");
-               break;
+     // Advanced Switch Case
+    switch (age) {
+        case 18 -> System.out.println("You are legally an adult.");
+        case 23 -> System.out.println("You are going to join a Job");
+        case 60 -> System.out.println("You are gonna retired.");
+        default -> System.out.println("Enjoy the moment");
+    }
 
-          case 23:
-               System.out.println("You are going to join a Job");
-               break;
-
-          case 60:
-               System.out.println("You are gonna retired.");
-               break;
-
-          default:
-               System.out.println("Enjoy the moment");
-
-     }
-
+    //Old Switch Case
+//     switch (age) {
+//          case 18:
+//               System.out.println("You are legally an adult.");
+//               break;
+//          case 23:
+//               System.out.println("You are going to join a Job");
+//               break;
+//          case 60:
+//               System.out.println("You are gonna retired.");
+//               break;
+//          default:
+//               System.out.println("Enjoy the moment");
+//               break;
+//     }
 }
