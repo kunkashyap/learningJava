@@ -59,18 +59,32 @@ void main() {
 
     // Q4.
 
-    Scanner sd = new Scanner(System.in);
-    System.out.print("Enter the day in number(1,2,3...) :");
-    int day = sd.nextInt();
-    switch (day) {
-        case 1 -> System.out.println("Monday");
-        case 2 -> System.out.println("Tuesday");
-        case 3 -> System.out.println("Wednesday");
-        case 4 -> System.out.println("Thursday");
-        case 5 -> System.out.println("Friday");
-        case 6 -> System.out.println("Saturday");
-        case 7 -> System.out.println("Sunday");
+//    Scanner sd = new Scanner(System.in);
+//    System.out.print("Enter the day in number(1,2,3...) :");
+//    int day = sd.nextInt();
+//    switch (day) {
+//        case 1 -> System.out.println("Monday");
+//        case 2 -> System.out.println("Tuesday");
+//        case 3 -> System.out.println("Wednesday");
+//        case 4 -> System.out.println("Thursday");
+//        case 5 -> System.out.println("Friday");
+//        case 6 -> System.out.println("Saturday");
+//        case 7 -> System.out.println("Sunday");
+//
+//    }
 
+
+    // Q5.
+    Scanner sy = new Scanner(System.in);
+    System.out.println("Enter the year: ");
+    int year = sy.nextInt();
+
+    if(year%4==0){
+        System.out.println(year + " is a leap year.");
+    }
+
+    else{
+        System.out.println(year + " is NOT a leap year.");
     }
 
 
