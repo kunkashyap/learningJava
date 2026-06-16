@@ -33,29 +33,57 @@ void main() {
 //    }
 
 
-    //Q3.
-    Scanner st = new Scanner(System.in);
-    System.out.print("Enter your income in Lakhs :");
+//    //Q3.
+//    Scanner st = new Scanner(System.in);
+//    System.out.print("Enter your income in Lakhs :");
+//
+//    float tax =  0;
+//    float income = st.nextFloat();
+//
+//    if(income<=2.5){
+//        tax = tax + 0;
+//    }
+//    else if(income > 2.5f && income <= 5f){
+//        tax = tax + 0.05f * (income - 2.5f);
+//    }
+//    else if(income > 5f && income < 10f){
+//        tax = tax + 0.05f * ( 5.0f - 2.5f);
+//        tax = tax + 0.05f * (income - 5f);
+//    }
+//    else if (income > 10.0f) {
+//        tax = tax + 0.05f * (5.0f - 2.5f);
+//        tax = tax + 0.2f * (10.0f - 5f);
+//        tax = tax + 0.3f * (income - 10.0f);
+//    }
+//    System.out.println("The total tax paid by employee is: " + tax + " Lakhs");
 
-    float tax =  0;
-    float income = st.nextFloat();
+    // Q4.
 
-    if(income<=2.5){
-        tax = tax + 0;
+    Scanner sd = new Scanner(System.in);
+    System.out.print("Enter the day in number(1,2,3...) :");
+    int day = sd.nextInt();
+    switch (day) {
+        case 1 -> System.out.println("Monday");
+        case 2 -> System.out.println("Tuesday");
+        case 3 -> System.out.println("Wednesday");
+        case 4 -> System.out.println("Thursday");
+        case 5 -> System.out.println("Friday");
+        case 6 -> System.out.println("Saturday");
+        case 7 -> System.out.println("Sunday");
+
     }
-    else if(income > 2.5f && income <= 5f){
-        tax = tax + 0.05f * (income - 2.5f);
-    }
-    else if(income > 5f && income < 10f){
-        tax = tax + 0.05f * ( 5.0f - 2.5f);
-        tax = tax + 0.05f * (income - 5f);
-    }
-    else if (income > 10.0f) {
-        tax = tax + 0.05f * (5.0f - 2.5f);
-        tax = tax + 0.2f * (10.0f - 5f);
-        tax = tax + 0.3f * (income - 10.0f);
-    }
-    System.out.println("The total tax paid by employee is: " + tax + " Lakhs");
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
