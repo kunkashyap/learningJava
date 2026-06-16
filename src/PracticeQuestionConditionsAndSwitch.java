@@ -75,28 +75,34 @@ void main() {
 
 
     // Q5.
-    Scanner sy = new Scanner(System.in);
-    System.out.println("Enter the year: ");
-    int year = sy.nextInt();
+//    Scanner sy = new Scanner(System.in);
+//    System.out.println("Enter the year: ");
+//    int year = sy.nextInt();
+//
+//    if(year%4==0){
+//        System.out.println(year + " is a leap year.");
+//    }
+//
+//    else{
+//        System.out.println(year + " is NOT a leap year.");
+//    }
 
-    if(year%4==0){
-        System.out.println(year + " is a leap year.");
+
+    //Q6.
+    Scanner sw = new Scanner(System.in);
+    System.out.println("Enter the website name : ");
+    String website = sw.next();
+
+    if(website.endsWith(".com")){
+        System.out.println("Your website is a commercial website.");
+    } else if (website.endsWith(".org")) {
+        System.out.println("Your website is a organizational website");
+    } else if (website.endsWith(".in")) {
+        System.out.println("Your website is Indian Website");
+
+    }else {
+        System.out.println("Enter valid website!");
     }
-
-    else{
-        System.out.println(year + " is NOT a leap year.");
-    }
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
