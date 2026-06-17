@@ -1,6 +1,6 @@
 void main() {
     //for Loop
-//    for (int i = 1; i <= 10; i++) {
+//    for (<initialize>; <boolean-expression>; <update|increment/decrement>) {
 //        System.out.println(i); }
 
         // 2n = Even Numbers = 0,2,4,6,8
