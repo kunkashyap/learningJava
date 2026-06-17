@@ -1,7 +1,8 @@
 void main() {
     //for Loop
 //    for (<initialize>; <boolean-expression>; <update|increment/decrement>) {
-//        System.out.println(i); }
+//         <Piece-of-code>
+//         }
 
         // 2n = Even Numbers = 0,2,4,6,8
         // 2n+1 = Odd Numbers = 1,3,5,7,9
