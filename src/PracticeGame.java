@@ -8,7 +8,7 @@ void main() {
     Random rd = new Random();
     System.out.println("Choose Rock (1), paper(2), scissor(3):");
     int choice = sc.nextInt();
-    int answer = rd.nextInt(2);
+    int answer = rd.nextInt(3);
     switch (choice){
         case 1 -> System.out.println(answer);
         case 2 -> System.out.println(answer);
