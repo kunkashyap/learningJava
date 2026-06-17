@@ -4,9 +4,10 @@
 void main() {
     //WHILE LOOPS
     int a = 1;
-    while(a<=3){
+    while (a <= 3) {
         System.out.println(a);
-//        a++;
-          a = a + 1;
+        a++;
+//          a = a + 1; == a ++
     }
+    System.out.println("Finish running while loop!");
 }
