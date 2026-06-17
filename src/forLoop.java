@@ -20,5 +20,12 @@ void main() {
     for (int i = 0; i <n ; i++) {
         System.out.println(2*i);
 
+        System.out.println(" \n ");
+    // Descending Order
+
+        for (int j = 5; j > 0 ; j--) {
+            System.out.println(j);
+
+        }
     }
 }
