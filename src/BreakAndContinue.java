@@ -40,30 +40,42 @@ void main() {
 
     // CONTINUE STATEMENTS
 
-    for (int i = 0; i < 10 ; i++) {
-        if (i == 2){
-            System.out.println("Ending Loop");
-            continue;  /*Skips the i == 2 (will print ending loop when i ==2)
-                        and jump next to i == 3
+//    for (int i = 0; i < 10 ; i++) {
+//        if (i == 2){
+//            System.out.println("Ending Loop");
+//            continue;  /*Skips the i == 2 (will print ending loop when i ==2)
+//                        and jump next to i == 3
+//
+//                         */
+//        }
+//        System.out.println("Java is great " + i);
+//
+//
+//    }
 
-                         */
+    // Continue in Do while loops
+    int i = 0;
+    do {
+        i++;
+        if (i == 2) {
+            System.out.println("Ending the loop");
+            continue;
         }
         System.out.println("Java is great " + i);
 
-
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
+    } while (i < 5);
+    System.out.println("Loop ends here");
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
