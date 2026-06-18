@@ -17,10 +17,17 @@ void main() {
 //    System.out.println(sum);
 
     //Q3. Multiplication Table
-    int n = 5;
-    for (int i = 1; i <= 10; i++) {
+//    int n = 5;
+//    for (int i = 1; i <= 10; i++) {
+//        System.out.printf("%d x %d = %d \n", n , i, n*i);
+//
+//    }
+
+
+    //Q4. Reverse Multiplication
+    int n = 10;
+    for (int i = 10; i >= 1; i--) {
         System.out.printf("%d x %d = %d \n", n , i, n*i);
 
     }
-
 }
