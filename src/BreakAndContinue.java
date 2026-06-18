@@ -13,17 +13,29 @@ void main() {
 
 
     //Break using While Loop
-    int i = 0;
-    while (i < 5){
-        System.out.println("Java is great " + i);
-        i++;
-        if (i == 3){
+//    int i = 0;
+//    while (i < 5){
+//        System.out.println("Java is great " + i);
+//        i++;
+//        if (i == 3){
+//            System.out.println("Ending Loop");
+//            break;
+//        }
+//    }
+
+
+    // Break using do while loop
+    int x = 0;
+    do {
+        System.out.println("Java is great " + x);
+
+        if (x == 5){
             System.out.println("Ending Loop");
             break;
-        }
-    }
+        }x++;
 
-
+    }while (x < 5);
+    System.out.println("Loop ends here");
 
 
 
