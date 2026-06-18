@@ -25,19 +25,33 @@ void main() {
 
 
     // Break using do while loop
-    int x = 0;
-    do {
-        System.out.println("Java is great " + x);
+//    int x = 0;
+//    do {
+//        System.out.println("Java is great " + x);
+//
+//        if (x == 5){
+//            System.out.println("Ending Loop");
+//            break;
+//        }x++;
+//
+//    }while (x < 5);
+//    System.out.println("Loop ends here");
 
-        if (x == 5){
+
+    // CONTINUE STATEMENTS
+
+    for (int i = 0; i < 10 ; i++) {
+        if (i == 2){
             System.out.println("Ending Loop");
-            break;
-        }x++;
+            continue;  /*Skips the i == 2 (will print ending loop when i ==2)
+                        and jump next to i == 3
 
-    }while (x < 5);
-    System.out.println("Loop ends here");
+                         */
+        }
+        System.out.println("Java is great " + i);
 
 
+    }
 
 
 
