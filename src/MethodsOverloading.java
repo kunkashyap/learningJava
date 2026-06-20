@@ -9,6 +9,23 @@ public class MethodsOverloading {
         arr[0] = 98;
     }
 
+
+
+    //Method Overloading
+
+    static void foo(){
+        System.out.println("GOOD MORNING");
+    }
+
+    static void foo(int a) {
+        System.out.println("GOOD MORNING " + a);
+    }
+
+
+
+
+
+
     static void tellJoke(){
         /*void Return type
           When We don't want our method to return anything, we use void
@@ -41,6 +58,14 @@ public class MethodsOverloading {
 
         //Refence is passing here
 
+
+        //METHOD OVERLOADING
+        /* Two or More methods can have same name but different
+        parameters
+         */
+
+        foo();
+        foo(4);
 
 
 
