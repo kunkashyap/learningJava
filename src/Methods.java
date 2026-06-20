@@ -28,14 +28,5 @@ public class Methods {
         int c1;
         c1 = logic(a1,b1);
         System.out.println(c1);
-
-
-
-
-
-
-
-
-
     }
 }
