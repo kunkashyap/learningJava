@@ -17,8 +17,9 @@ public class MethodsOverloading {
         System.out.println("GOOD MORNING");
     }
 
-    static void foo(int a) {
+    static void foo(String a , String b) {
         System.out.println("GOOD MORNING " + a);
+        System.out.println("Good evening "+ b);
     }
 
 
@@ -65,7 +66,7 @@ public class MethodsOverloading {
          */
 
         foo();
-        foo(4);
+        foo("Kunal", "Tunal");//Arguments are Actual and Parameters are sample given in Methods
 
 
 
