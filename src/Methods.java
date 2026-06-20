@@ -33,5 +33,6 @@ public class Methods {
         //Calling a method
 //        calc obj = new calc() -> Object Creation
 //        obj.mySum(a,b) -> Method will call upon an object
+
     }
 }
