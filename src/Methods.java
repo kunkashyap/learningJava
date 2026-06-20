@@ -28,5 +28,10 @@ public class Methods {
         int c1;
         c1 = logic(a1,b1);
         System.out.println(c1);
+
+
+        //Calling a method
+//        calc obj = new calc() -> Object Creation
+//        obj.mySum(a,b) -> Method will call upon an object
     }
 }
