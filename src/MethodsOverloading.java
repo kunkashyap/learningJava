@@ -11,7 +11,7 @@ public class MethodsOverloading {
 
 
 
-    //Method Overloading
+    //Method Overloading -> Changing with Parameters only
 
     static void foo(){
         System.out.println("GOOD MORNING");
