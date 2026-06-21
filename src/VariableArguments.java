@@ -14,5 +14,8 @@ public class VariableArguments {
         System.out.println("LEARNING VarArgs ");
         System.out.printf("The sum is: "+ sum(10,4,5,8,9));
         System.out.println("The sum of nothing is: "+ sum());
+
+
+
     }
 }
