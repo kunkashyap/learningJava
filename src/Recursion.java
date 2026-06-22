@@ -16,7 +16,7 @@ public class Recursion {
 
     static void main() {
 
-        int n = 5;
+        int n = 6;
         System.out.println("The value of Factorial " + n + ": "+ factorial(n));
 
     }
