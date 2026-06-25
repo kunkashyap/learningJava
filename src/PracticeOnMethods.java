@@ -62,6 +62,17 @@ public class PracticeOnMethods {
     }
 
 
+    static void pattern2_rec(int n){
+        if (n < 0) {
+            pattern2_rec(n+1);
+            for (int i = 0; i > n ; i--) {
+                System.out.print("*");
+
+            }
+            System.out.println();
+
+        }
+    }
 
 
 
@@ -78,14 +89,19 @@ public class PracticeOnMethods {
 //        c =sumRect(3);
 //        System.out.println(c);
 
-//          Problem4
-            pattern2(4);
+////          Problem4
+//            pattern2(4);
+//
+//            //Problem5 (Fibonacci Series | recursion)
+//        System.out.println(fibb(7));
+//
+//
+//        //Pattern1 using Recursion
+//        pattern1_rec(4);
 
-            //Problem5 (Fibonacci Series | recursion)
-        System.out.println(fibb(7));
 
-
-        //Pattern1 using Recursion
-        pattern1_rec(4);
+        //Pattern2 using Recursion
+        pattern2_rec(5);
     }
+
 }
