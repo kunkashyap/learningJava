@@ -5,4 +5,6 @@ public class OOP {
 
     /*Solving a problem by creating objects */
 
+    //Class -Is a blueprint for creating objects
+
 }
