@@ -50,6 +50,22 @@ public class PracticeOnMethods {
 
 
 
+    static void pattern1_rec(int n){
+        if (n>0){
+            pattern1_rec(n-1);
+            for (int i = 0; i < n ; i++) {
+                System.out.print("*");
+
+            }
+            System.out.println();
+        }
+    }
+
+
+
+
+
+
     static void main(String[] args) {
 //        //Problem-1
 //        multiplication(6);
@@ -67,5 +83,9 @@ public class PracticeOnMethods {
 
             //Problem5 (Fibonacci Series | recursion)
         System.out.println(fibb(7));
+
+
+        //Pattern1 using Recursion
+        pattern1_rec(4);
     }
 }
