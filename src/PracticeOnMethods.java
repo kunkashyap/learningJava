@@ -38,6 +38,17 @@ public class PracticeOnMethods {
     }
 
 
+    static int fibb(int n){
+       if (n==1){
+           return 0;
+       } else if (n == 2) {
+           return 1;
+       }else{
+           return fibb(n-1) + fibb(n-2);
+       }
+    }
+
+
 
     static void main(String[] args) {
 //        //Problem-1
@@ -51,7 +62,10 @@ public class PracticeOnMethods {
 //        c =sumRect(3);
 //        System.out.println(c);
 
-
+//          Problem4
             pattern2(4);
+
+            //Problem5 (Fibonacci Series | recursion)
+        System.out.println(fibb(7));
     }
 }
